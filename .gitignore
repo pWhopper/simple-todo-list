@@ -99,6 +99,8 @@ typings/
 
 # production
 /build
+/dist
+
 
 # misc
 .DS_Store
@@ -108,3 +110,4 @@ typings/
 .env.production.local
 
 now.json
+
