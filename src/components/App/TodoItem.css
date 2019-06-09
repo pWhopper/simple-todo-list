@@ -1,0 +1,36 @@
+.todo__item{
+    color:#fff;
+    margin:20px 0;
+    font-weight: lighter;
+    display:table;
+    border-collapse: collapse;
+    font-size:20px;
+    line-height: 40px;
+    width:100%;
+}
+
+.todo__item.checked{
+    color:#aaa;
+}
+
+.todo__item > div{
+    display:table-cell;
+}
+
+.todo__item .remove{
+    width:50px;
+    text-align:center;
+}
+
+.todo__item .text{
+    
+}
+.todo__item .text.checked{
+    color:#aaa;
+    text-decoration:line-through;
+}
+.todo__item .check-mark{
+    
+    width:50px;
+    text-align:center;
+}
